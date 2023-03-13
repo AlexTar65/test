@@ -3,9 +3,6 @@ with zipfile.ZipFile('rogaikopyta.zip', 'r') as zip_ref:
     zip_ref.extractall('C:\Users\taranenko\Desktop\new project')
 zip = zipfile.ZipFile('rogaikopyta.zip')
 
-# list available files in the container
-#print (zip.namelist())
-
 # extract a specific file from the zip container
 #f = zip.open("file_inside_zip.txt")
 
